@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prata&family=Story+Script&display=swap');
+
+/* Valori post reset + body */
+
+h1 {
+    font-size: 2.7em;
+    font-weight: 800;
+    padding: 0.5em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 1em;
+    color: #25a2c3;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 1.8em;
+    margin: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    margin: 0.3em;
+    font-size: 1.5em;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    line-height: 1.65;
+}
+
+body {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    background-color: black;
+    box-sizing: content-box;
+    height: 120px;
+}
+
+header img {
+    height: 3.5em;
+    padding: 2em;
+}
+
+button {
+    background-color:  #f04c2f;
+    border-radius: 5px;
+    border: none;
+    margin: 1.5em;
+    font-size: 1.1em;
+    padding: 1em;
+    width: 45%;
+    color: white;
+    font-weight: 600;
+}
+
+/* Main */
+
+#primo-blocco {
+    text-align: center;
+    background-image: url(./Assets/banner.jpg);
+    background-size: cover;
+    box-sizing: content-box;
+    padding: 2em 0;
+}
+
+#primo-blocco p {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+#primo-blocco h1 {
+    color: #25a2c3;
+}
+
+#secondo-blocco {
+    text-align: center;
+    box-sizing: content-box;
+    margin: 4em 0;
+}
+
+#secondo-blocco img {
+    border-radius: 360px;
+    margin: 3em 0;
+}
+
+#secondo-blocco p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#terzo-blocco {
+    box-sizing: content-box;
+    background-color: #e22d0e;
+    text-align: center;
+    color: white;
+    padding: 4em 0 2em 0;
+}
+
+#terzo-blocco p {
+    margin: 1.5em;
+    font-style: italic;
+}
+
+#terzo-blocco span {
+    display: block;
+    font-size: 0.6em;
+    margin: 0.5em;
+}
+
+#quarto-blocco {
+    box-sizing: content-box;
+    padding: 2em 2em;
+}
+
+#quarto-blocco img {
+    width: 100%;
+}
+
+article {
+    text-align: center;
+    margin: 3em 0;
+    box-sizing: content-box;
+    border: 2px solid #dee1e3;
+    padding-bottom: 3em;
+}
+
+/* Footer */
+
+
+footer {
+    box-sizing: content-box;
+    text-align: center;
+    background-color: #25a2c3;
+    color: white;
+    padding: 3em 0;
+    margin-top: 3em;
+}
+
+.sottolineatura {
+    text-decoration: underline;
+}
+
+footer i {
+    padding-right: 0.4em;
+}
+
+hr {
+    margin: 2em 7em;
+}
+
+footer p:last-child {
+    font-size: 1.1em;
+}
