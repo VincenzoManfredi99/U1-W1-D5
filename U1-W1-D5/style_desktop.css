@@ -85,7 +85,6 @@ button {
     margin: 3em;
     font-size: 2.3em;
     padding: 0.7em;
-    width: 15%;
     color: white;
     font-weight: bold;
     transition: transform 0.3s;
@@ -156,18 +155,18 @@ button:hover {
 article {
     text-align: center;
     margin: 3em 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     border: 2px solid #dee1e3;
     padding-bottom: 3em;
     display: inline-block;
     margin: 35px;
-    width: 900px;
-    height: 900px;
+    width: 700px;
+    height: 750px;
 }
 
 article img {
-    width: 800px;
-    height: 600px;
+    width: 600px;
+    height: 500px;
 }
 
 /* Footer */
