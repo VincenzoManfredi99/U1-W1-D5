@@ -2,12 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prata&family=Story+Script&display=swap');
 
 /* Valori post reset + body */
-html {
-    background-color: rgb(31, 31, 31);
-}
 
 h1 {
-    font-size: 2.7em;
+    font-size: 4.5em;
     font-weight: 800;
     padding: 0.5em;
     font-family: "Montserrat", sans-serif;
@@ -18,8 +15,8 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8em;
-    margin: 1em;
+    font-size: 3em;
+    margin: 0.8em 0.2em;
     color: #25a2c3;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -37,7 +34,7 @@ h3 {
 
 p {
     margin: 0.3em;
-    font-size: 1.5em;
+    font-size: 2.3em;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -46,36 +43,18 @@ p {
     line-height: 1.65;
 }
 
-body {
-    width: 500px;
-    margin: 0 auto;
-    background-color: white;
-}
-
 /* Header */
 
 header {
-    text-align: center;
+    padding-left: ;
     background-color: black;
     box-sizing: content-box;
-    height: 120px;
+    height: 200px;
 }
 
 header img {
-    height: 3.5em;
-    padding: 2em;
-}
-
-button {
-    background-color:  #f04c2f;
-    border-radius: 5px;
-    border: none;
-    margin: 1.5em;
-    font-size: 1.1em;
-    padding: 1em;
-    width: 45%;
-    color: white;
-    font-weight: 600;
+    height: 6em;
+    padding: 3em;
 }
 
 /* Main */
@@ -85,11 +64,12 @@ button {
     background-image: url(./Assets/banner.jpg);
     background-size: cover;
     box-sizing: content-box;
-    padding: 2em 0;
+    padding: 450px;
+
 }
 
 #primo-blocco p {
-    width: 80%;
+    width: 55%;
     margin: 0 auto;
     
 }
@@ -98,20 +78,43 @@ button {
     color: #25a2c3;
 }
 
+button {
+    background-color:  #f04c2f;
+    border-radius: 10px;
+    border: none;
+    margin: 3em;
+    font-size: 2.3em;
+    padding: 0.7em;
+    width: 15%;
+    color: white;
+    font-weight: bold;
+}
+
 #secondo-blocco {
+    padding: 5em;
+    margin: 5em;
     text-align: center;
+    vertical-align: top;
+}
+
+#testo-secondo-blocco {
+    display: inline-block;
     box-sizing: content-box;
-    margin: 4em 0;
+    text-align: start;
+    width: 1200px;
+    height: 900px;
 }
 
-#secondo-blocco img {
-    border-radius: 360px;
-    margin: 3em 0;
+#foto-secondo-blocco {
+    display: inline-block;
+    box-sizing: content-box;
+    width: 1000px;
+    height: 1000px;
 }
 
-#secondo-blocco p {
-    width: 80%;
-    margin: 0 auto;
+#foto-secondo-blocco img {
+    width: 800px;
+    border-radius: 500px;
 }
 
 #terzo-blocco {
@@ -119,12 +122,13 @@ button {
     background-color: #e22d0e;
     text-align: center;
     color: white;
-    padding: 4em 0 2em 0;
+    padding: 8em;
 }
 
 #terzo-blocco p {
-    margin: 1.5em;
+    margin: 1em;
     font-style: italic;
+    font-size: 3em;
 }
 
 #terzo-blocco span {
@@ -136,6 +140,8 @@ button {
 #quarto-blocco {
     box-sizing: content-box;
     padding: 2em 2em;
+    text-align: center;
+    margin: 6em 0;
 }
 
 #quarto-blocco img {
@@ -145,9 +151,18 @@ button {
 article {
     text-align: center;
     margin: 3em 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
     border: 2px solid #dee1e3;
     padding-bottom: 3em;
+    display: inline-block;
+    margin: 35px;
+    width: 900px;
+    height: 900px;
+}
+
+article img {
+    width: 800px;
+    height: 600px;
 }
 
 /* Footer */
@@ -155,7 +170,6 @@ article {
 
 footer {
     box-sizing: content-box;
-    text-align: center;
     background-color: #25a2c3;
     color: white;
     padding: 3em 0;
@@ -164,6 +178,8 @@ footer {
 
 .sottolineatura {
     text-decoration: underline;
+    margin-top: 0.3;
+    margin-bottom: 0.3;
 }
 
 footer i {
@@ -171,9 +187,16 @@ footer i {
 }
 
 hr {
-    margin: 2em 7em;
+    margin: 3em 0;
 }
 
 footer p:last-child {
-    font-size: 1.1em;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+#allineamento-footer {
+    width: 20%;
+    margin: 0 auto;
+
 }
