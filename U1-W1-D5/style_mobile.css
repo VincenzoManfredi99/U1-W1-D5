@@ -76,6 +76,11 @@ button {
     width: 45%;
     color: white;
     font-weight: 600;
+    transition: transform 0.4s;
+}
+
+button:hover {
+    transform: scale(0.9);
 }
 
 /* Main */

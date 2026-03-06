@@ -88,6 +88,11 @@ button {
     width: 15%;
     color: white;
     font-weight: bold;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: scale(0.95);
 }
 
 #secondo-blocco {
@@ -184,6 +189,11 @@ footer {
 
 footer i {
     padding-right: 0.4em;
+    transition: transform 0.2s;
+}
+
+footer i:hover {
+    transform: scale(1.2);
 }
 
 hr {
@@ -200,3 +210,4 @@ footer p:last-child {
     margin: 0 auto;
 
 }
+
